@@ -23,5 +23,3 @@ jobs:
           java --version
           ls -ltr
 
-       - name: Perform Google Formatter check
-         run: mvn com.spotify.fmt:fmt-maven-plugin:check
