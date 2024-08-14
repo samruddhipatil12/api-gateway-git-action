@@ -23,3 +23,6 @@ jobs:
           java --version
           ls -ltr
 
+       - name: OSS scan
+         run: mvn ossindex:audit
+         continue-on-error: true
